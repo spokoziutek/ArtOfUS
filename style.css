@@ -1,10 +1,11 @@
 body{
+    margin: 0;
     background: #278dcc;
     font-family: Lato,sans-serif;
 }
 
 .navbar-brand{
-    color: #bcc2cf;
+    color: #FCD7B6;
     font-size: 2.5rem;
     font-weight: 700;
     transition: 0.3s;
@@ -16,7 +17,7 @@ body{
 }
 
 .nav-link{
-    color: #bcc2cf;
+    color: #FCD7B6;
     font-size: 1.5rem;
     font-weight: 700;
     transition: 0.3s;
@@ -28,11 +29,11 @@ body{
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(252,215,182)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(167,112,255);
+    border-color: rgb(252,215,182);
 } 
 
 .header {
@@ -49,14 +50,14 @@ body{
 }
 
 h1{
-    color: #bcc2cf;
+    color: #FCD7B6;
     font-size: 7rem;
     font-weight: 800;
 }
 
 #p-header{
     text-align: start;
-    color: #bcc2cf;
+    color: #FCD7B6;
     padding-left: 100px;
     font-size: 1.1rem;
     font-weight: 500;
@@ -81,16 +82,27 @@ h1{
     display: flex;
     justify-content: start;
     align-items: center;
-    text-align: center;
+    text-align: start;
     padding-left: 300px;
     padding-right: 300px;
 }
 
 @media (max-width: 1000px){
     .flex{
+        align-items: center;
         padding-left: 0;
         padding-right: 0;
-        justify-content: center;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    #p-header{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1.1rem;
+        font-weight: 500;
     }
 }
 
