@@ -1,5 +1,4 @@
 $(document).ready(function(){
 
-    $('body').css('display', 'none');
-    $('body').fadeIn(1100);
+    $('body').addClass('fade-in-slide');
 });
