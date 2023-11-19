@@ -25,10 +25,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#regulamin">O WYDARZENIU</a>
+                        <a class="nav-link" href="#regulamin">o wydarzeniu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ZGŁOŚ ZDJĘCIE</a>
+                        <a class="nav-link" href="#form">zgłoś zdjęcie</a>
                     </li>
                 </ul>
             </div>
@@ -68,17 +68,25 @@
         <div class="container regulamin-container">
             <div class="row">
                 <div class="col" id="img-div">
-                    <img class="img-fluid" src="pictures/undraw_photograph_re_up3b.svg" alt="">
+                    <img class="img-fluid" src="pictures/camera-girlll.png" alt="dziewczyna z aparatem">
                 </div>
                 <div class="col">
                     <h2>O WYDARZENIU</h2>
-                    <p class="p-about">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, saepe reiciendis necessitatibus maiores accusantium natus, debitis tenetur consequatur fugit beatae dolores vero magnam iure commodi repellat dicta at obcaecati repellendus!
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At impedit mollitia ratione pariatur adipisci repudiandae commodi consectetur blanditiis suscipit, alias sit molestiae quos ipsam deleniti, dolore quisquam labore veritatis similique!
+                    <p class="p-about">
+                        Szanowni Studenci Uniwersytetu Szczecińskiego, </br></br>
+                        Z przyjemnością zapraszamy Was do wzięcia udziału w konkursie fotograficznym "Art of Us". To niepowtarzalna okazja, aby podzielić się swoim talentem i spojrzeć na świat w inny, artystyczny sposób.</br></br>
+                        Chcemy, abyście przez obiektyw swojego aparatu ukazali to, co Waszym zdaniem stanowi esencję naszej społeczności akademickiej. To może być wszystko – od chwil codziennego życia na kampusie po unikatowe wydarzenia i momenty, które definiują naszą wspólnotę.</br></br>
+                        Najlepsze prace zostaną zaprezentowane podczas specjalnej wystawy, która odbędzie się po zakończeniu konkursu. To doskonała okazja, aby Wasze dzieła trafiły do szerszej publiczności i stały się inspiracją dla innych.</br></br>
                     </p>
+                    <a href="./downloads/Regulamin_konkursu.pdf" download><h3>REGULAMIN KONKURSU PDF</h3></a></br></br>
                     <div class="row">
                         <div class="col text-center">
                             <i class="fa-solid fa-location-dot fa-xl" style="color: #fcd7b6;"></i></br>
-                            <p class="p-about">Wyimaginowany Adres 47</br>Szczecin 71-004</p>
+                            <p class="p-about">
+                                Adres wystawy:</br>
+                                Wyimaginowany Adres 47</br>
+                                Szczecin 71-004
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -86,14 +94,58 @@
         </div>
     </section>
 
-    <section>
+    <section id="form">
         <div class="container-fluid contact-container">
             <div class="container form-container">
+                <div class="row">
+                    <div class="col">
+                        <form  method="post" action="">
+                            <h2>Zgłoś zdjęcie</h2>
+                            <div class="form-group mb-4 mt-4">
+                                <input type="text" class="form-control form-control-lg shadow" name="imie" id="imie" placeholder="Imię" required>
+                            </div>
                 
+                            <div class="form-group mb-4">
+                                <input type="text" class="form-control form-control-lg shadow" name="nazwisko" id="nazwisko" placeholder="Nazwisko" required>
+                            </div>
+                            
+                            <div class="form-group mb-4">
+                                <input type="email" class="form-control form-control-lg shadow" name="email" id="email" placeholder="E-mail" required>
+                            </div>
+
+                            <div class="form-group mb-4">
+                                <select class="form-select form-select-lg" aria-label="Default select example" name="wydzial" id="wydzial">
+                                    <option selected disabled>Wydział</option>
+                                    <option value="1">Wydział Nauk Ścisłych i Przyrodniczych</option>
+                                    <option value="2">Wydział Humanistyczny</option>
+                                    <option value="3">Wydział Nauk Społecznych</option>
+                                    <option value="4">Wydział Kultury Fizycznej i Zdrowia</option>
+                                    <option value="5">Wydział Prawa i Administracji</option>
+                                    <option value="6">Wydział Teologiczny</option>
+                                  </select>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="file" class="form-control form-control-lg" name="photo-upload" id="photo-upload" required>
+                            </div>
+
+                            <div class="form mt-4" id="btn-div">
+                                <button type="submit" class="btn btn-lg" id="submit-btn">Wyślij zgłoszenie</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center  pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="" class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+        <p class="text-center text-muted">© Bieskiewicz Łukasz</p>
+      </footer>
 
     <script src="scripts/smoothscrolling.js"></script>
 </body>
