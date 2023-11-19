@@ -144,6 +144,12 @@ option{
 @media (max-width: 1400px){
     h1{
         font-size:3rem
+
+    }
+    #p-header{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -169,7 +175,6 @@ option{
     }
 
     #p-header{
-        text-align: center;
         padding-left: 0;
         padding-right: 0;
         font-size: 1.1rem;
