@@ -153,6 +153,16 @@ option{
     }
 }
 
+@media(max-width: 1200px){
+    .flex{
+        text-align: center;
+    }
+
+    .inner-header{
+        margin: auto;
+    }
+}
+
 @media (max-width: 1000px){
     .flex{
         align-items: center;
