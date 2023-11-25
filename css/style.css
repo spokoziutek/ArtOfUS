@@ -12,6 +12,7 @@ body{
 }
 
 .navbar-brand:hover{
+    color: #08090ad5;
     transform: scale(1.05);
 }
 
@@ -25,7 +26,7 @@ body{
 }
 
 .nav-link:hover{
-    color: #A3BBC8;
+    color: #08090ad5;
     transform: scale(1.05);
 } 
 
@@ -133,7 +134,7 @@ option{
 }
 
 .regulamin-container{
-    padding-top: 100px;
+    padding-top: 110px;
 }
 
 .flex {
