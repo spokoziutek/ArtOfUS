@@ -1,18 +1,14 @@
 body{
-
-    background: #243F4D;
-    font-family: Lato,sans-serif;
+    background: #243F4D; 
+    font-family: 'Hind', sans-serif;
 }
 
 .navbar-brand{
+    font-family: 'Clash Display', sans-serif;
     color: #FCD7B6;
     font-size: 2.5rem;
     font-weight: 700;
     transition: 0.3s;
-}
-
-.navbar-brand:visited{
-    color: #FCD7B6;
 }
 
 .navbar-brand:hover{
@@ -20,9 +16,10 @@ body{
 }
 
 .nav-link{
+    font-family: 'Clash Display', sans-serif;
     color: #FCD7B6;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     transition: 0.3s;
     text-decoration: none;
 }
@@ -58,18 +55,21 @@ body{
 }
 
 h1{
+    font-family: 'Clash Display', sans-serif;
     color: #FCD7B6;
     font-size: 7rem;
-    font-weight: 800;
+    font-weight: 630;
 }
 
 h2{
+    font-family: 'Clash Display', sans-serif;
     color: #FCD7B6;
     font-size: 49px;
     font-weight: 800;
 }
 
 h3{
+    font-family: 'Clash Display', sans-serif;
     color: #FCD7B6;
     font-weight: 800;
     text-align: center;
