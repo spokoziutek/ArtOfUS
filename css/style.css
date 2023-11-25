@@ -77,7 +77,6 @@ h3{
 
 form {
     margin-top: 100px;
-    padding: 50px;
     border-radius: 2rem;
 }
 
@@ -131,6 +130,10 @@ option{
     width: 100%;
     margin: 0;
     padding: 0
+}
+
+.regulamin-container{
+    padding-top: 100px;
 }
 
 .flex {
@@ -199,6 +202,9 @@ option{
         font-weight: 500;
     }
 
+    form{
+        margin-top: 60px;
+    }
 }
 
 .content {
@@ -250,12 +256,6 @@ transform: translate3d(-90px,0,0);
     height:40px;
     min-height:40px;
 }
-}
-
-.regulamin-container{
-    padding-top: 150px;
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 img{
